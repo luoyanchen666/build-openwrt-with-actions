@@ -1,5 +1,5 @@
 # 请在下方输入自定义命令(一般用来安装第三方插件)(可以留空)
-
+curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 # 编辑默认的lan口ip地址
 sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
 
